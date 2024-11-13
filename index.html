@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Splatoon 3 Storymode Showcase</title>
+  </head>
+  <body>
+    <!-- to show images in the 'faces' folder you would write "images/faces/jack.png" -->
+    <div class="right-row light-grey">
+      <div class="box center-content light-blue" id="boxL-B">
+        <img
+          src="images/Alterna-BL.png"
+          class="clickable"
+          id="imgTop"
+          onclick="switchPic()"
+        />
+      </div>
+      <div class="box center-content light-blue-two" id="boxL-B-2">
+        <img
+          src="images/Alterna-F.png"
+          class="clickable"
+          id="imgBottom"
+          onclick="switchSecondPic()"
+        />
+      </div>
+    </div>
+
+    <div class="left-row black wrap">
+      <div class="grey-left center-content light-grey" id="boxL-G">
+        <img src="images/Icon.png" onclick="resetAll()" class="clickable" />
+      </div>
+      <div class="grey-right center-content light-grey" id="boxL-G2">
+        <img
+          src="images/HGstripped.jpg"
+          id="stripped"
+          class="clickable all-grey"
+          onclick="strippedToNeo()"
+        />
+      </div>
+      <div class="short center-content disc-gold" id="boxD-G">
+        <img src="images/disc.png" onclick="playSong()" class="clickable" />
+      </div>
+    </div>
+
+    <audio src="sounds/SplatAudio1.mp3" id="click-play"></audio>
+    <audio src="sounds/bum4.mp3" id="bum4-play"></audio>
+    <audio src="sounds/Clear.mp3" id="clear-play"></audio>
+    <script src="script.js"></script>
+  </body>
+</html>
