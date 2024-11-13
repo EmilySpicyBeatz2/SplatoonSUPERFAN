@@ -1,0 +1,2 @@
+# SplatoonSUPERFAN
+Created with CodeSandbox
